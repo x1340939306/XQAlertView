@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "XQAlertView"
   s.version      = "1.0.0"
-  s.summary      = "UIAlertView，UIActionSheet，UIAlertController封装，一句代码即可，iOS任何系统都可以使用"
+  s.summary      = "UIAlertView，UIActionSheet，UIAlertController封装处理"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-            Custom Category used on iOS, which implement by Objective-C.UIAlertView，UIActionSheet，UIAlertController封装，一句代码即可，iOS任何系统都可以使用
+                    UIAlertView，UIActionSheet，UIAlertController封装，一句代码即可，iOS任何系统都可以使用
                    DESC
 
   s.homepage     = "https://github.com/x1340939306/XQAlertView"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/x1340939306/XQAlertView.git", :commit => "66a4a6f929c1036ce2f23a5018d2319e35936bc2" ,:tag => "v#{s.version}
+  s.source       = { :git => "https://github.com/x1340939306/XQAlertView.git", :tag => "v#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
